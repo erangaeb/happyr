@@ -1,15 +1,22 @@
+# load R mysql library 
+# this library needs to be installed via below command
+#   install.packages("RMySQL")
 library(RMySQL)
 
 
 # Create mysql database connection and return it, Im running mysql with docker 
 # here, please refere README.md for more information
+#   db username = root
+#   db password = root
+#   db name = senz
+#   db host = localhost/127.0.0.1
 getConn = function() {
     conn = dbConnect(
         MySQL(), 
         user='root', 
         password='root', 
         dbname='senz', 
-        host='dev.localhost'
+        host='127.0.0.1'
     )
 
     return(conn)
@@ -36,6 +43,8 @@ get = function() {
 
 
 # Inset data into owls table, simpley create insert query and exeucute it 
+#   name = given name of owl
+#   phone = given phone no of owl
 put = function(name, phone) {
     # get database connection first
     conn = getConn()
