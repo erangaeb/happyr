@@ -23,9 +23,12 @@ After install you can go to a R shell via terminal. Open terminal and enter
 This project contains some examples on integrating R programming lanageuage 
 with mysql
 
-## Set up mysql 
+# Set up mysql 
 
-### Install 
+Before running this example you have to install mysql on your computer and set up the 
+database 
+
+## 1. Install 
 
 I'm running mysql with docker. Simply install docker on your computer and run 
 following command on terminal. Docker will setup mysql for you
@@ -37,7 +40,7 @@ docker run -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql
 If you manually install mysql on the computer, make sure to set the root
 password as `root`
 
-### Setup database 
+## 2. Setup database 
 
 I'm creating database `senz` and table `owls` on that database
 
@@ -51,9 +54,9 @@ create table owls (
 );
 ```
 
-## Run example
+# Run project
 
-### Install RMySQL
+## 1. Install RMySQL
 
 Before run the example you have to install R mysql package, type `R` on command
 prompt(it will take you to R shell). Then execute 
@@ -62,7 +65,7 @@ prompt(it will take you to R shell). Then execute
 install.packages("RMySQL")
 ```
 
-### Run program
+## 2. Run program
 
 R programs can run with `Rscript` command.
 
