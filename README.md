@@ -57,7 +57,7 @@ create table owls (
 
 ### Install RMySQL
 
-Before run the example you have to install R mysql package (`RMySQL`), type `R` on 
+Before run the example you have to install R mysql package `RMySQL`, type `R` on 
 command prompt(it will take you to R shell). Then execute 
 
 ```
