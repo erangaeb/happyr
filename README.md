@@ -1,5 +1,6 @@
-# R
-R is a free software environment for statistical computing and graphics. 
+# R language
+R is a free software environment/programming language for statistical computing 
+and graphics. 
 
 ## Install R 
 
@@ -11,7 +12,7 @@ brew install R
 
 Just google and find how to install R on windows. 
 
-# R shell
+## R shell
 
 After install you can go to a R shell via terminal. Open terminal and execure
 'R' and hitenter, you will be on R shell. You can run R commands and examples
