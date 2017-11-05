@@ -72,3 +72,10 @@ R programs can run with `Rscript` command.
 ```
 Rscript db.R
 ```
+
+# References
+
+1. https://www.r-bloggers.com/accessing-mysql-through-r/
+2. https://www.r-bloggers.com/mysql-and-r/
+3. https://moderndata.plot.ly/connecting-r-to-mysql-mariadb/
+4. https://cloud.google.com/blog/big-data/2017/03/google-cloud-platform-for-data-scientists-using-r-with-google-cloud-sql-for-mysql
