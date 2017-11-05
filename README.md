@@ -52,3 +52,21 @@ create table owls (
 );
 ```
 
+## Run example
+
+### Install RMySQL
+
+Before run the example you have to install R mysql package, type R on command
+prompt(it will take you to R shell). Then execute 
+
+```
+install.packages("RMySQL")
+```
+
+### Run program
+
+R programs can run with Rscript command 
+
+```
+Rscript db.R
+```
